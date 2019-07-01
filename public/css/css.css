@@ -188,7 +188,6 @@ background-color: rgb(110, 233, 233);
 /* Run Instructions */
 .run-instructions div{
     display: block;
-    border: solid 2px aqua;
     width: 100%;
 }
 .run-instructions {
@@ -305,7 +304,6 @@ i {
      height: 100%;
  }
  .carousel-item:nth-child(2){
-     border: solid 2px aqua;
      width: 100%;
  }
 
@@ -334,14 +332,14 @@ i {
     background-size: cover;
     height: 100%;
     background-position: 50% 50%;
-    background-image: linear-gradient(to bottom right, rgba(135, 208, 250, 0.5), rgba(63, 203, 238, 0.5)), url('./header.jpeg')
+    background-image: linear-gradient(to bottom right, rgba(135, 208, 250, 0.5), rgba(63, 203, 238, 0.5)), url('../images/header.jpeg')
 }
 
 .carousel-item:nth-child(2){
     background-size: cover;
     height: 100%;
     background-position: 30% 20%;
-    background-image: linear-gradient(to bottom right, rgba(135, 208, 250, 0.5), rgba(63, 203, 238, 0.5)), url('./bounce.jpg')
+    background-image: linear-gradient(to bottom right, rgba(135, 208, 250, 0.5), rgba(63, 203, 238, 0.5)), url('../images/bounce.jpg')
 }
 
 
@@ -351,6 +349,6 @@ i {
     background-size: cover;
     height: 100%;
     background-position: 50% 50%;
-    background-image: linear-gradient(to bottom right, rgba(135, 208, 250, 0.5), rgba(63, 203, 238, 0.5)), url('./gym.jpg')
+    background-image: linear-gradient(to bottom right, rgba(135, 208, 250, 0.5), rgba(63, 203, 238, 0.5)), url('../images/gym.jpg')
 
 }

@@ -1,0 +1,27 @@
+{
+  "name": "6-19-19-Coach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "engines": {
+    "node": "10.15.1",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoePirtle1992/For-A-Friend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoePirtle1992/For-A-Friend/issues"
+  },
+  "homepage": "https://github.com/JoePirtle1992/For-A-Friend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
