@@ -1,0 +1,356 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+html, body {
+width: 100%;
+height: 100%;
+background-color: rgb(110, 233, 233);
+}
+
+#main-title h1 {
+    font-weight: 700;
+    /* color: yellow; */
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+
+.master-links {
+    display: flex;
+}
+
+.master-links li {
+    font-size: 2em;
+    list-style: none;
+    padding: .2em;
+}
+
+#main-head {
+    min-height: 95%;
+    max-height: 95%;
+
+    /* Former */
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);     */
+    /* -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 89%, 52% 98%, 0 89%, 0 0); */
+    /* clip-path: polygon(50% 0%, 100% 0, 100% 89%, 52% 98%, 0 89%, 0 0); */
+   display: flex;
+    height: 75%;
+    /* animation: myfade 1.2s; */
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-position: 60% 30%;
+    background-image: url('./joeheader.jpg')
+    /* background-image: url('./header.jpeg'); */
+}
+
+
+/* .carousel-item {
+    height: 90%;
+}
+
+#header::after {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+} */
+
+#header h1 {
+    font-size: 4em;
+    color: white;
+    font-family: 'Oswald';
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#header {
+    /* border: solid 2px red; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 48%;
+    /* bottom: 50%; */
+    right: 33%;
+    z-index: 1;
+}
+
+#navigation-links {
+        border: solid 2px red;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 0%;
+        /* bottom: 50%; */
+        right: 0%;
+        z-index: 1;
+}
+
+
+.carousel-item img {
+    height: 100%;
+}
+
+
+/* Put the name of main container */
+#carouselExampleIndicators::before {
+	background-image: linear-gradient(360deg,#82bfe2,#5a8bd6);
+}
+
+#main-head h1, #main-head p {
+    color: white;
+}
+
+#inner-title {
+    position: relative;
+    bottom: 10%;
+}
+
+#main-head {
+    text-align: center;
+}
+
+
+#button-1 {
+    padding: 1em;
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    margin-top: 1em;
+    position: relative;
+    top: 10%;
+}
+
+#main-head h1 {
+    font-size: 5em;
+    /* font-family: 'Lato'; */
+}
+
+#main-head p {
+    font-size: 1.1em;
+    font-family: 'Lato';
+}
+
+
+#the-rest {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Lato';
+    padding: 1.4em;
+}
+
+#operations {
+
+    padding-bottom: 2em;
+}
+
+.run-title {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Lato';
+        padding: 2em;
+}
+
+/* Operations */
+/* #operations {
+    border: solid 2px aqua;
+} */
+
+#inner-operations {
+    /* border: solid 2px green; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.location img {
+    width: 100%;
+    height: 200px;
+}
+
+.location {
+    flex: 1;
+    padding: 1em;
+    text-align: center;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+
+/* Run Instructions */
+.run-instructions div{
+    display: block;
+    border: solid 2px aqua;
+    width: 100%;
+}
+.run-instructions {
+    padding: 1em;
+    font-size: 1em;
+    /* font-family: 'Lato';
+    display: flex;
+    justify-content: center; */
+}
+.step {
+    text-align: center;
+    flex: 1;
+}
+
+i {
+    border: solid 2px red;
+    border-radius: 50%;
+    padding: 1em;
+    background-color: red;
+    color: white;
+    margin: 1em;
+}
+
+.run-image {
+    width: 300px;
+}
+
+.step p {
+    padding: 1em;
+}
+
+/* Animation */
+@keyframes myfade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#strange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#about-me {
+    display: flex;
+    /* border: solid 2px red; */
+    width: 50%;
+}
+
+.coachkids {
+    width: 100%;
+    padding: 1em;
+}
+
+
+
+
+
+
+
+/* Mobile */
+/*Smallest it can get is 405px and biggest it can get is 455px*/
+@media (min-width: 500px) and (max-width: 600px) {
+
+#main-title h1 {
+    font-size: 3.2em;
+}
+
+#main-title p {
+    font-size: 1em;
+}
+    
+#inner-operations{
+    display: block;
+    border: solid 2px red;
+}
+
+.location img {
+    width: 90%;
+}
+
+
+ #main-head {
+    min-height: 90%;
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);     */
+    /* -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 89%, 52% 98%, 0 89%, 0 0); */
+    /* clip-path: polygon(50% 0%, 100% 0, 100% 89%, 52% 98%, 0 89%, 0 0); */
+   display: flex;
+    height: 90%;
+    /* animation: myfade 1.2s; */
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-position: 50%;
+    background-image: url('./header.jpeg');
+}
+}
+
+
+/*Smallest it can get is 405px and biggest it can get is 455px*/
+@media (min-width: 405px) and (max-width: 800px) {
+
+ .carousel-inner {
+     height: 100vh;
+     width: 100%;
+ }
+ .carousel-item {
+     height: 100%;
+ }
+ .carousel-item:nth-child(2){
+     border: solid 2px aqua;
+     width: 100%;
+ }
+
+ #header {
+    /* border: solid 2px red; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 48%;
+    /* bottom: 50%; */
+    right: 0%;
+    left: 10%;
+    z-index: 1;
+}
+
+#header h1 {
+    font-size: 3em;
+}
+
+
+ 
+}
+
+
+.carousel-item:nth-child(1){
+    background-size: cover;
+    height: 100%;
+    background-position: 50% 50%;
+    background-image: linear-gradient(to bottom right, rgba(135, 208, 250, 0.5), rgba(63, 203, 238, 0.5)), url('./header.jpeg')
+}
+
+.carousel-item:nth-child(2){
+    background-size: cover;
+    height: 100%;
+    background-position: 30% 20%;
+    background-image: linear-gradient(to bottom right, rgba(135, 208, 250, 0.5), rgba(63, 203, 238, 0.5)), url('./bounce.jpg')
+}
+
+
+
+
+.carousel-item:nth-child(3){
+    background-size: cover;
+    height: 100%;
+    background-position: 50% 50%;
+    background-image: linear-gradient(to bottom right, rgba(135, 208, 250, 0.5), rgba(63, 203, 238, 0.5)), url('./gym.jpg')
+
+}
